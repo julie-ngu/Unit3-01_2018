@@ -40,7 +40,7 @@ public class JavaStringReverse {
 			
 			// adds last character of current string to a variable
 			// recursion - inputs substring of current string into method to get next character
-			txtReversed = txtReversed + lastCharOfString + reversString(theSentenceSubstring);
+			txtReversed = lastCharOfString + reversString(theSentenceSubstring);
 			
 			return txtReversed; 
 		}
