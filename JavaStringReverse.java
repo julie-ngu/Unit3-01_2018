@@ -32,7 +32,7 @@ public class JavaStringReverse {
 		String theSentenceSubstring;
 		char lastCharOfString;
 		
-		if(theSentence.length() > 1) {
+		if(theSentence.length() > 0) {
 			theSentenceSubstring = theSentence.substring(0,  theSentence.length() - 1);
 			
 			// write out the last character in the current variable
